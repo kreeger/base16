@@ -30,6 +30,9 @@ A builder should provide the following variables to a template file:
 - `base00-rgb-r` to `base0F-rgb-r` - converted from the hex value in the scheme file e.g "124"
 - `base00-rgb-g` to `base0F-rgb-g` - converted from the hex value in the scheme file e.g "175"
 - `base00-rgb-b` to `base0F-rgb-b` - converted from the hex value in the scheme file e.g "194"
+- `base00-dec-r` to `base0F-dec-r` - the rgb value from the scheme file, divided by 255.0 e.g "0.48627451"
+- `base00-dec-g` to `base0F-dec-g` - the rgb value from the scheme file, divided by 255.0 e.g "0.68627451"
+- `base00-dec-b` to `base0F-dec-b` - the rgb value from the scheme file, divided by 255.0 e.g "0.752941176"
 
 ## Code Structure
 There is no outline for a recommended code structure that a base16 theme builder should follow but a design goal should be to keep the application as simple as possible providing only the functionality desibed in this document. If you feel you have a great idea for additional functionality please raise an issue in the [base16 repository](https://github.com/chriskempson/base16).
